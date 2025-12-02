@@ -14,6 +14,17 @@
     <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
     <meta name="description" content="Fatih Öz hakkında - UI/UX Engineer, yazılım geliştirici ve tasarımcı. Eğitim bilgileri, ilgi alanları ve yetenekleri hakkında bilgi edinin.">
     <title>Hakkımda - Fatih Öz</title>
+    <script type="text/javascript">
+      function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+          pageLanguage: 'tr',
+          includedLanguages: 'tr,en',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+          autoDisplay: false
+        }, 'google_translate_element');
+      }
+    </script>
+    <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
   </head>
 
   <body>
@@ -26,9 +37,12 @@
           <div class="nav--logo">
               <a href="./index.html">FatihÖz</a>
           </div>
-          <button class="nav--toggle" aria-label="toggle navigation">
-            <span class="hamburger"></span>
-          </button>
+          <div class="nav--right">
+            <button class="nav--toggle" aria-label="toggle navigation">
+              <span class="hamburger"></span>
+            </button>
+            <div id="google_translate_element"></div>
+          </div>
           <ul class="nav--links">
             <li>
               <a href="./index.html">
@@ -421,6 +435,7 @@
           });
         });
       }
+
     </script>
   </body>
 </html>
