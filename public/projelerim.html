@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <meta name="description" content="Fatih Öz - Projelerim. Web, mobil ve UI/UX tasarım projelerimi keşfedin.">
+    <title>Projelerim - Fatih Öz</title>
+  </head>
+
+  <body>
+    <!--content of body-->
+    <div class="container">   
+      <!--content wrapper-->
+      <main class="wrapper">
+        <!--nav starts-->
+        <nav id="nav" class="nav--bar">
+          <div class="nav--logo">
+              <a href="/">FatihÖz</a>
+          </div>
+          <button class="nav--toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+          </button>
+          <ul class="nav--links">
+            <li>
+              <a href="./index.html">
+                <span>Anasayfa</span>
+              </a>
+            </li>
+            <li>
+              <a href="./hakkimda.html">
+                <span>Hakkımda</span>
+              </a>
+            </li>
+            <li>
+              <a href="./projelerim.html">
+                <span>Projelerim</span>
+              </a>
+            </li>
+            <li>
+              <a href="./galeri.html">
+                <span>Galeri</span>
+              </a>
+            </li>
+            <li>
+              <a href="./iletisim.html">
+                <span>İletişim</span>
+              </a>
+            </li>
+            <li>
+              <a class="resume" href="./assets/Resume - Joshua's.pdf" download="Resume">
+                <span>Özgeçmişim</span>
+              </a>
+            </li>
+          </ul>
+          <!--nav ends-->
+        </nav>
+        <!--Social icons-->
+        <div class="social--icons">
+          <ul>
+            <li>
+              <a href="https://www.behance.net" target="_blank"><img src="./assets/behance.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="https://www.figma.com" target="_blank"><img src="./assets/figma.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="https://github.com" target="_blank"><img src="./assets/github.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank"><img src="./assets/linkedin.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="https://threads.net" target="_blank"><img src="./assets/twitter.svg" alt="" /></a>
+            </li>
+          </ul>
+          <div class="hero--label"><p>Sosyal </p></div>
+        </div>
+
+        <!--Portfolio Header-->
+        <div id="portfolio" class="portfolio--header-section">
+          <div class="portfolio--hero">
+            <h1 class="portfolio--title">Projelerim</h1>
+            <p class="portfolio--subtitle">
+              Web, mobil ve UI/UX tasarım projelerimi keşfedin. Her proje, 
+              yeni teknolojiler öğrenme ve kullanıcı deneyimini geliştirme yolculuğumun bir parçası.
+            </p>
+          </div>
+        </div>
+
+        <!--Portfolio-->
+        <div class="portfolio">
+          <div class="portfolio-header">
+            <!-- Project Tabs -->
+            <div class="project-tabs">
+              <button class="tab-btn active" data-tab="all">Tümü</button>
+              <button class="tab-btn" data-tab="web">Web</button>
+              <button class="tab-btn" data-tab="app">App</button>
+              <button class="tab-btn" data-tab="ui">UI Designs</button>
+              <button class="tab-btn" data-tab="others">Diğer</button>
+            </div>
+            <p class="container--label">Projeler</p>
+          </div>
+          <!-- Portfolio Grid -->
+          <div class="portfolio-grid">
+
+            <!-- Portfolio 2.0 Project -->
+            <div class="portfolio-card" data-category="web">
+              <div class="project-preview">
+                <img src="./assets/projects/joeokat.png" alt="Portfolio 2.0" />
+              </div>
+              <div class="project-info">
+                <h3>Portfolio 2.0</h3>
+                <p>Portfolio 2.0: Digital Presence with Progressive Web App Excellence <br /> [ LIVE ]</p>
+                <div class="project-tech">
+                  <span>React.js</span>
+                  <span>PWA</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/joeokat/Portfolio2.0" target="_blank">
+                    <img src="./assets/github.svg" alt="GitHub" /> 
+                  </a>
+                  <a href="https://joeokat.vercel.app" target="_blank">
+                    <img src="./assets/linkexternal.svg" alt="External Link" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- Spartan Odds Project -->
+            <div class="portfolio-card" data-category="app">
+              <div class="project-preview">
+                <img src="./assets/projects/spartan.jpeg" alt="Spartan Odds" />
+              </div>
+              <div class="project-info">
+                <h3>Spartan Odds</h3>
+                <p>VIP Booking Tickets for Beginner Investors on Telegram <br /> [ LIVE ]</p>
+                <div class="project-tech">
+                  <span>Svelte.js</span>
+                  <span>PWA</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/fatihoz/" target="_blank">
+                    <img src="./assets/github.svg" alt="GitHub" />
+                  </a>
+                  <a href="https://github.com/fatihoz/" target="_blank">
+                    <img src="./assets/linkexternal.svg" alt="External Link" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- MEG Project -->
+            <div class="portfolio-card" data-category="ui">
+              <div class="project-preview">
+                <img src="./assets/projects/meg.png" alt="Pageant Voting Website" />
+              </div>
+              <div class="project-info">
+                <h3>Pageant Voting Website</h3>
+                <p>Pageant Voting Website <br /> [ PREVIEW ]</p>
+                <div class="project-tech">
+                  <span>React.js</span>
+                  <span>UIUX</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/fatihoz/" target="_blank">
+                    <img src="./assets/github.svg" alt="GitHub" />
+                  </a>
+                  <a href="https://github.com/fatihoz/" target="_blank">
+                    <img src="./assets/linkexternal.svg" alt="External Link" />
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- BYOI Project -->
+            <div class="portfolio-card" data-category="ui">
+              <div class="project-preview">
+                <img src="./assets/projects/byoi.png" alt="BYOI Bootcamp" />
+              </div>
+              <div class="project-info">
+                <h3>BYOI Bootcamp</h3>
+                <p>Bootcamp Website <br /> [ PREVIEW ]</p>
+                <div class="project-tech">
+                  <span>Figma</span>
+                  <span>UIUX</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" target="_blank">
+                    <img src="./assets/github.svg" alt="GitHub" />
+                  </a>
+                  <a href="https://github.com/fatihoz/" target="_blank">
+                    <img src="./assets/linkexternal.svg" alt="External Link" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          
+            <!-- ESL Project -->
+            <div class="portfolio-card" data-category="others">
+              <div class="project-preview">
+                <img src="./assets/projects/esl.png" alt="ESL Micro App" />
+              </div>
+              <div class="project-info">
+                <h3>ESL Micro App</h3>
+                <p>Community for ESL to practice English through Human Interaction. <br /> [ Under Maintenance ] </p>
+                <div class="project-tech">
+                  <span>React Native</span>
+                  <span>Expo</span>
+                  <span>AI</span>
+                </div>
+                <div class="project-links">
+                  <a href="#" target="_blank">
+                    <img src="./assets/github.svg" alt="GitHub" />
+                  </a>
+                  <a href="#" target="_blank">
+                    <img src="./assets/linkexternal.svg" alt="External Link" />
+                  </a>
+                </div>
+              </div>
+            </div>
+        
+            <!-- Alumni Pool Project -->
+            <div class="portfolio-card" data-category="web">
+              <div class="project-preview">
+                <img src="./assets/projects/alumni.png" alt="Alumni Pool" />
+              </div>
+              <div class="project-info">
+                <h3>Alumni Pool</h3>
+                <p>Collection of IT Resume and Portfolio for review and hiring <br /> [ Under Maintenance ]</p>
+                <div class="project-tech">
+                  <span>HTML</span>
+                  <span>CSS</span>
+                  <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                  <a href="https://github.com/fatihoz/" target="_blank">
+                    <img src="./assets/github.svg" alt="GitHub" />
+                  </a>
+                  <a href="https://github.com/fatihoz/" target="_blank">
+                    <img src="./assets/linkexternal.svg" alt="External Link" />
+                  </a>
+                </div>
+              </div>
+            </div>
+              
+          </div>
+        </div>
+        
+      </main>
+      <!--Footer with Contact-->
+      <footer id="contact" class="footer">
+        <div class="footer--content">
+          <div class="footer--left">
+            <h3 class="footer--title">Fatih Öz</h3>
+            <p class="footer--description">
+              UI/UX Engineer ve yazılım geliştirici. Kullanıcı deneyimini ön planda tutarak, 
+              modern ve işlevsel web ve mobil uygulamalar geliştirmeye tutkulu bir şekilde devam ediyorum.
+            </p>
+          </div>
+          <div class="footer--center">
+            <div class="footer--quick-links">
+              <h4>Hızlı Linkler</h4>
+              <ul>
+                <li><a href="./index.html#profile">Anasayfa</a></li>
+                <li><a href="./hakkimda.html">Hakkımda</a></li>
+                <li><a href="./projelerim.html">Projelerim</a></li>
+                <li><a href="./index.html#contact">İletişim</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer--right">
+            <div class="footer--contact-info">
+              <div class="footer--info-item">
+                <h4>Email</h4>
+                <p>fatihoz@gmail.com <span>(Önerilen)</span></p>
+              </div>
+              <div class="footer--info-item">
+                <h4>Adres</h4>
+                <p>
+                  Antalya, Türkiye
+                </p>
+              </div>
+            </div>
+            <div class="footer--social">
+              <h4>Sosyal Medya</h4>
+              <div class="footer--social-icons">
+                <a href="https://www.behance.net" target="_blank"><img src="./assets/behance.svg" alt="Behance" /></a>
+                <a href="https://www.figma.com" target="_blank"><img src="./assets/figma.svg" alt="Figma" /></a>
+                <a href="https://github.com" target="_blank"><img src="./assets/github.svg" alt="GitHub" /></a>
+                <a href="https://www.linkedin.com" target="_blank"><img src="./assets/linkedin.svg" alt="LinkedIn" /></a>
+                <a href="https://threads.net" target="_blank"><img src="./assets/twitter.svg" alt="Twitter" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer--bottom">
+          <p class="footer--copyright">© 2025 Fatih Öz. Tüm hakları saklıdır.</p>
+        </div>
+        <a class="footer--scroll-top" href="#portfolio"><img src="./assets/cheveronUp.svg" alt="Yukarı" /></a>
+      </footer>
+    </div>
+    <script>
+      // Get all tab buttons and portfolio cards
+      const tabBtns = document.querySelectorAll('.tab-btn');
+      const portfolioCards = document.querySelectorAll('.portfolio-card');
+
+      // Add smooth scrolling to nav links and scroll to top button
+      document.querySelectorAll('.nav--links a[href^="#"], .footer--scroll-top[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+          e.preventDefault();
+          const targetId = this.getAttribute('href');
+          
+          if (targetId === '#') return;
+          
+          const targetElement = document.querySelector(targetId);
+          if (targetElement) {
+            // Close mobile menu if open
+            navToggle.classList.remove('active');
+            navLinks.classList.remove('active');
+            document.body.style.overflow = '';
+            
+            // Smooth scroll to target
+            targetElement.scrollIntoView({
+              behavior: 'smooth',
+              block: 'start'
+            });
+          }
+        });
+      });
+
+      // Handle project preview images
+      document.querySelectorAll('.project-preview').forEach(preview => {
+        const img = preview.querySelector('img');
+        if (img) {
+          img.addEventListener('error', () => {
+            preview.classList.add('no-image');
+            img.style.display = 'none';
+          });
+
+          // Check if image source is empty or invalid
+          if (!img.src || img.src === window.location.href || 
+              img.src === '#' || img.src === 'undefined' || 
+              !img.src.trim()) {
+            preview.classList.add('no-image');
+            img.style.display = 'none';
+          }
+        } else {
+          preview.classList.add('no-image');
+        }
+      });
+
+      // Show all cards initially
+      portfolioCards.forEach(card => {
+        if (card.getAttribute('data-category') === 'web' || card.getAttribute('data-category') === 'all') {
+          card.classList.add('active');
+        }
+      });
+
+      // Add click event listener to each tab button
+      tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          // Remove active class from all buttons
+          tabBtns.forEach(b => b.classList.remove('active'));
+          
+          // Add active class to clicked button
+          btn.classList.add('active');
+          
+          // Get the tab category
+          const category = btn.getAttribute('data-tab');
+          
+          // Show/hide portfolio cards based on category with animation
+          portfolioCards.forEach(card => {
+            // Remove active class first
+            card.classList.remove('active');
+            
+            // Force a reflow to restart animation
+            void card.offsetWidth;
+            
+            // Add active class if category matches
+            if (category === 'all' || card.getAttribute('data-category') === category) {
+              card.classList.add('active');
+            }
+          });
+        });
+      });
+
+      // Trigger click on "All" tab to show all projects initially
+      document.querySelector('.tab-btn[data-tab="all"]').click();
+
+      // Mobile Navigation
+      const navToggle = document.querySelector('.nav--toggle');
+      const navLinks = document.querySelector('.nav--links');
+      
+      navToggle.addEventListener('click', () => {
+        const isOpen = navToggle.classList.contains('active');
+        
+        navToggle.classList.toggle('active');
+        navLinks.classList.toggle('active');
+        
+        // Prevent scrolling when menu is open
+        document.body.style.overflow = isOpen ? '' : 'hidden';
+      });
+
+      // Close mobile menu when clicking on a link
+      document.querySelectorAll('.nav--links a').forEach(link => {
+        link.addEventListener('click', () => {
+          navToggle.classList.remove('active');
+          navLinks.classList.remove('active');
+          document.body.style.overflow = '';
+        });
+      });
+
+      // Footer scroll to top
+      const footerScrollTop = document.querySelector('.footer--scroll-top');
+      if (footerScrollTop) {
+        footerScrollTop.addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector('#portfolio').scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
+

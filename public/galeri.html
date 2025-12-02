@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/favicon/favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png">
+    <meta name="description" content="Fatih Öz - Galeri. Fotoğraf ve görsel galerim.">
+    <title>Galeri - Fatih Öz</title>
+  </head>
+
+  <body>
+    <!--content of body-->
+    <div class="container">   
+      <!--content wrapper-->
+      <main class="wrapper">
+        <!--nav starts-->
+        <nav id="nav" class="nav--bar">
+          <div class="nav--logo">
+              <a href="/">FatihÖz</a>
+          </div>
+          <button class="nav--toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+          </button>
+          <ul class="nav--links">
+            <li>
+              <a href="./index.html">
+                <span>Anasayfa</span>
+              </a>
+            </li>
+            <li>
+              <a href="./hakkimda.html">
+                <span>Hakkımda</span>
+              </a>
+            </li>
+            <li>
+              <a href="./projelerim.html">
+                <span>Projelerim</span>
+              </a>
+            </li>
+            <li>
+              <a href="./galeri.html">
+                <span>Galeri</span>
+              </a>
+            </li>
+            <li>
+              <a href="./iletisim.html">
+                <span>İletişim</span>
+              </a>
+            </li>
+            <li>
+              <a class="resume" href="./assets/Resume - Joshua's.pdf" download="Resume">
+                <span>Özgeçmişim</span>
+              </a>
+            </li>
+          </ul>
+          <!--nav ends-->
+        </nav>
+        <!--Social icons-->
+        <div class="social--icons">
+          <ul>
+            <li>
+              <a href="https://www.behance.net" target="_blank"><img src="./assets/behance.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="https://www.figma.com" target="_blank"><img src="./assets/figma.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="https://github.com" target="_blank"><img src="./assets/github.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com" target="_blank"><img src="./assets/linkedin.svg" alt="" /></a>
+            </li>
+            <li>
+              <a href="https://threads.net" target="_blank"><img src="./assets/twitter.svg" alt="" /></a>
+            </li>
+          </ul>
+          <div class="hero--label"><p>Sosyal</p></div>
+        </div>
+
+        <!--Gallery Header-->
+        <div id="gallery" class="gallery--header-section">
+          <div class="gallery--hero">
+            <h1 class="gallery--title">Galeri</h1>
+            <p class="gallery--subtitle">
+              Fotoğraf ve görsel galerim. Projelerimden, çalışmalarımdan ve hayatımdan kareler.
+            </p>
+          </div>
+        </div>
+
+        <!--Gallery Section-->
+        <div class="gallery--section">
+          <div class="gallery--masonry">
+            <div class="gallery--masonry-item" data-size="tall">
+              <div class="gallery--image-wrapper">
+                <img src="./assets/images/img1.jpg" alt="Proje Çalışması" />
+                <div class="gallery--overlay">
+                  <div class="gallery--overlay-content">
+                    <h3>Proje Çalışması</h3>
+                    <p>Web tasarım projelerimden bir kare. Modern ve kullanıcı dostu arayüz tasarımları.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery--masonry-item" data-size="wide">
+              <div class="gallery--image-wrapper">
+                <img src="./assets/images/img2.jpg" alt="UI/UX Tasarım" />
+                <div class="gallery--overlay">
+                  <div class="gallery--overlay-content">
+                    <h3>UI/UX Tasarım</h3>
+                    <p>Kullanıcı deneyimi odaklı tasarım çalışmalarımdan örnekler.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery--masonry-item" data-size="tall">
+              <div class="gallery--image-wrapper">
+                <img src="./assets/images/img3.jpg" alt="Mobil Uygulama" />
+                <div class="gallery--overlay">
+                  <div class="gallery--overlay-content">
+                    <h3>Mobil Uygulama</h3>
+                    <p>Responsive tasarım ve mobil uygulama geliştirme projelerim.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery--masonry-item" data-size="normal">
+              <div class="gallery--image-wrapper">
+                <img src="./assets/images/me.jpg" alt="Kişisel" />
+                <div class="gallery--overlay">
+                  <div class="gallery--overlay-content">
+                    <h3>Kişisel</h3>
+                    <p>Hayatımdan ve çalışma ortamımdan kareler.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery--masonry-item" data-size="tall">
+              <div class="gallery--image-wrapper">
+                <img src="./assets/images/image.png" alt="Portfolio" />
+                <div class="gallery--overlay">
+                  <div class="gallery--overlay-content">
+                    <h3>Portfolio</h3>
+                    <p>Portfolio projelerimden görseller ve tasarım süreçleri.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery--masonry-item" data-size="wide">
+              <div class="gallery--image-wrapper">
+                <img src="./assets/images/img1.jpg" alt="Yaratıcı Projeler" />
+                <div class="gallery--overlay">
+                  <div class="gallery--overlay-content">
+                    <h3>Yaratıcı Projeler</h3>
+                    <p>Yenilikçi ve yaratıcı projeler üzerinde çalışmalarım.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery--masonry-item" data-size="normal">
+              <div class="gallery--image-wrapper">
+                <img src="./assets/images/img2.jpg" alt="Tasarım Süreçleri" />
+                <div class="gallery--overlay">
+                  <div class="gallery--overlay-content">
+                    <h3>Tasarım Süreçleri</h3>
+                    <p>Yaratıcı tasarım süreçlerimden detaylar ve çalışma örnekleri.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="gallery--masonry-item" data-size="tall">
+              <div class="gallery--image-wrapper">
+                <img src="./assets/images/img3.jpg" alt="Web Geliştirme" />
+                <div class="gallery--overlay">
+                  <div class="gallery--overlay-content">
+                    <h3>Web Geliştirme</h3>
+                    <p>Modern web teknolojileri ile geliştirdiğim projeler.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Lightbox Modal -->
+        <div id="lightbox" class="lightbox">
+          <span class="lightbox--close">&times;</span>
+          <img class="lightbox--content" id="lightbox-img" src="" alt="" />
+          <a class="lightbox--prev">&#10094;</a>
+          <a class="lightbox--next">&#10095;</a>
+        </div>
+        
+      </main>
+      <!--Footer with Contact-->
+      <footer id="contact" class="footer">
+        <div class="footer--content">
+          <div class="footer--left">
+            <h3 class="footer--title">Fatih Öz</h3>
+            <p class="footer--description">
+              UI/UX Engineer ve yazılım geliştirici. Kullanıcı deneyimini ön planda tutarak, 
+              modern ve işlevsel web ve mobil uygulamalar geliştirmeye tutkulu bir şekilde devam ediyorum.
+            </p>
+          </div>
+          <div class="footer--center">
+            <div class="footer--quick-links">
+              <h4>Hızlı Linkler</h4>
+              <ul>
+                <li><a href="./index.html#profile">Anasayfa</a></li>
+                <li><a href="./hakkimda.html">Hakkımda</a></li>
+                <li><a href="./projelerim.html">Projelerim</a></li>
+                <li><a href="./galeri.html">Galeri</a></li>
+                <li><a href="./iletisim.html">İletişim</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer--right">
+            <div class="footer--contact-info">
+              <div class="footer--info-item">
+                <h4>Email</h4>
+                <p>fatihoz@gmail.com <span>(Önerilen)</span></p>
+              </div>
+              <div class="footer--info-item">
+                <h4>Adres</h4>
+                <p>
+                  Antalya, Türkiye
+                </p>
+              </div>
+            </div>
+            <div class="footer--social">
+              <h4>Sosyal Medya</h4>
+              <div class="footer--social-icons">
+                <a href="https://www.behance.net" target="_blank"><img src="./assets/behance.svg" alt="Behance" /></a>
+                <a href="https://www.figma.com" target="_blank"><img src="./assets/figma.svg" alt="Figma" /></a>
+                <a href="https://github.com" target="_blank"><img src="./assets/github.svg" alt="GitHub" /></a>
+                <a href="https://www.linkedin.com" target="_blank"><img src="./assets/linkedin.svg" alt="LinkedIn" /></a>
+                <a href="https://threads.net" target="_blank"><img src="./assets/twitter.svg" alt="Twitter" /></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer--bottom">
+          <p class="footer--copyright">© 2025 Fatih Öz. Tüm hakları saklıdır.</p>
+        </div>
+        <a class="footer--scroll-top" href="#gallery"><img src="./assets/cheveronUp.svg" alt="Yukarı" /></a>
+      </footer>
+    </div>
+    <script>
+      // Gallery Lightbox
+      const lightbox = document.getElementById('lightbox');
+      const lightboxImg = document.getElementById('lightbox-img');
+      const galleryItems = document.querySelectorAll('.gallery--masonry-item img');
+      const lightboxClose = document.querySelector('.lightbox--close');
+      const lightboxPrev = document.querySelector('.lightbox--prev');
+      const lightboxNext = document.querySelector('.lightbox--next');
+      let currentImageIndex = 0;
+      const images = Array.from(galleryItems).map(img => img.src);
+
+      // Open lightbox
+      galleryItems.forEach((img, index) => {
+        img.addEventListener('click', () => {
+          currentImageIndex = index;
+          lightbox.style.display = 'flex';
+          lightboxImg.src = images[currentImageIndex];
+          document.body.style.overflow = 'hidden';
+        });
+      });
+
+      // Close lightbox
+      lightboxClose.addEventListener('click', () => {
+        lightbox.style.display = 'none';
+        document.body.style.overflow = '';
+      });
+
+      lightbox.addEventListener('click', (e) => {
+        if (e.target === lightbox) {
+          lightbox.style.display = 'none';
+          document.body.style.overflow = '';
+        }
+      });
+
+      // Previous image
+      lightboxPrev.addEventListener('click', (e) => {
+        e.stopPropagation();
+        currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+        lightboxImg.src = images[currentImageIndex];
+      });
+
+      // Next image
+      lightboxNext.addEventListener('click', (e) => {
+        e.stopPropagation();
+        currentImageIndex = (currentImageIndex + 1) % images.length;
+        lightboxImg.src = images[currentImageIndex];
+      });
+
+      // Keyboard navigation
+      document.addEventListener('keydown', (e) => {
+        if (lightbox.style.display === 'flex') {
+          if (e.key === 'Escape') {
+            lightbox.style.display = 'none';
+            document.body.style.overflow = '';
+          } else if (e.key === 'ArrowLeft') {
+            currentImageIndex = (currentImageIndex - 1 + images.length) % images.length;
+            lightboxImg.src = images[currentImageIndex];
+          } else if (e.key === 'ArrowRight') {
+            currentImageIndex = (currentImageIndex + 1) % images.length;
+            lightboxImg.src = images[currentImageIndex];
+          }
+        }
+      });
+
+      // Mobile Navigation
+      const navToggle = document.querySelector('.nav--toggle');
+      const navLinks = document.querySelector('.nav--links');
+      
+      navToggle.addEventListener('click', () => {
+        const isOpen = navToggle.classList.contains('active');
+        
+        navToggle.classList.toggle('active');
+        navLinks.classList.toggle('active');
+        
+        // Prevent scrolling when menu is open
+        document.body.style.overflow = isOpen ? '' : 'hidden';
+      });
+
+      // Close mobile menu when clicking on a link
+      document.querySelectorAll('.nav--links a').forEach(link => {
+        link.addEventListener('click', () => {
+          navToggle.classList.remove('active');
+          navLinks.classList.remove('active');
+          document.body.style.overflow = '';
+        });
+      });
+
+      // Footer scroll to top
+      const footerScrollTop = document.querySelector('.footer--scroll-top');
+      if (footerScrollTop) {
+        footerScrollTop.addEventListener('click', function(e) {
+          e.preventDefault();
+          document.querySelector('#gallery').scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
+
